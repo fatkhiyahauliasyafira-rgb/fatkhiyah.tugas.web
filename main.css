@@ -1,0 +1,1113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.319);
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 20px;
+    gap: 3rem;
+    height: 80px;
+}
+
+nav ul {
+    display: flex; 
+    align-items: center;
+    gap: 5px;
+    list-style: none;
+    margin-top: 20px; 
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: #ffffff;
+    padding: 4px 10px;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 2px solid rgba(100, 190, 255, 0);
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid rgb(179, 199, 213);
+}
+
+
+.imgnav {
+    margin-top: 15px;
+}
+
+.containernav {
+    background-image: url(pantai-teluk-asmara-2-668834908.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.containernav2 {
+    background-image: url(pantai-teluk-asmara-2-668834908.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 13vh;
+}
+
+.containernav3 {
+    background-image: url(cafe1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 13vh;
+}
+
+
+.bglogin {
+    background-color: rgba(16, 119, 148, 0.615);
+    height: 35px;
+    width: 110px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+#igeser {
+    margin-left: 10px;
+    color: #ffffff;
+}
+
+.login {
+    margin-left: -1px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.bgli {
+    background-color: #ffffff5d;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.83);
+    height: 35px;
+    width: 80px;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 8px;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.bgli:hover {
+    background-color: #def4ff;
+    transform: scale(1.03);
+}
+
+.bgli2 {
+    background-color: #ffffff5d;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.83);
+    height: 35px;
+    width: 120px;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 8px;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.bgli2:hover {
+    background-color: #def4ff;
+    transform: scale(1.03);
+}
+
+.bgli3 {
+    background-color: #ffffff5d;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.83);
+    height: 35px;
+    width: 130px;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 8px;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.bgli3:hover {
+    background-color: #def4ff;
+    transform: scale(1.03);
+}
+
+.bgulli {
+    background-color: #ffffff2c;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.83);
+    border-radius: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.pwisata {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.83);
+}
+
+.hmalangraya {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    font-size: 150px;
+    text-shadow: 5px 5px 20px rgba(5, 5, 5, 0.859);
+}
+
+.pisi {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 13px;
+    text-shadow: 5px 5px 20px rgb(34, 34, 34);
+}
+
+.panah {
+    margin-top: 80px;
+    color: #f6f6f6;
+    size: 20px;
+}
+
+.wisata {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.h3rekom {
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    color: rgb(115, 186, 192);
+    margin-bottom: 5px;
+    text-shadow: 1px 1px 2px rgba(152, 151, 151, 0.634);
+}
+
+.rekomendasi {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.prekom {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(84, 82, 82);
+}
+
+
+.hicon {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1f3643;
+}
+
+.picon {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    color: rgba(45, 45, 45, 0.862);
+}
+
+.kananicon {
+    display: flex;
+    flex-direction: row;
+}
+
+#color {
+    color: rgb(73, 133, 96);
+}
+#color2 {
+    color: rgb(185, 54, 106);
+}
+#color3 {
+    color: rgb(58, 58, 97);
+}
+#color4 {
+    color: rgb(156, 41, 41);
+}
+
+.posisirekom {
+    display: flex;
+    flex-direction: column;
+}
+
+.ratakanan {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 65px;
+    margin: 40px;
+}
+
+.h3rekomendasipantai {
+    margin-bottom: 5px;
+}
+
+.h3rekomendasipantai h3 {
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #2d4e55;
+    background-color: #74bdd094;
+    background-size: cover;
+    text-shadow: 1px 1px 5px rgba(66, 66, 66, 0.634);
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding-bottom: 45px;
+}
+/*  */
+.listpantai {
+    background-image: url(bgblur.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.colm {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerbox {
+    position: relative;
+    width: 382px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3px;
+}
+
+.containerbox .card {
+    position: relative;
+    max-width: 300px;
+    height: 130px;
+    background-color: #ffffff;
+    margin: 55px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out;
+}
+.containerbox .card:hover {
+    height: 200px;
+}
+
+.containerbox .card .imgbox {
+    position: relative;
+    width: 260px;
+    height: 100px;
+    top: -60px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.containerbox .card .imgbox img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.containerbox .card .content {
+    position: relative;
+    margin-top: -140px;
+    padding: 50px 10px;
+    color: #111;
+    opacity: 0;
+    transition: 0,3s ease-in-out;
+}
+
+.containerbox .card .content h5 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+
+.containerbox .card .content p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;  
+}
+
+.geser {
+    display: flex;
+    flex-direction: row;
+}
+
+.containerbox .card:hover .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+
+.lihatselengkapnya {
+    margin-top: -70px;
+    text-align: center;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.aselengkapnya {
+    background-color: #dfd4b8;
+    padding: 12px 110px;
+    border-radius: 7px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.668);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: #2d4e55;
+}
+
+.lihatselengkapnya:hover {
+    transform: scale(1.09);
+}
+
+/* H A L A M A N 2 */
+
+.divjudullist {
+    text-align: center;
+    margin: 30px;
+}
+
+.hlist {
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4c616b;
+    text-shadow: 1px 1px 5px rgba(66, 66, 66, 0.634);
+}
+
+.plist {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4c616b75;
+    text-shadow: 1px 1px 5px rgba(66, 66, 66, 0.634);
+}
+
+.listpantai2 {
+    background-image: url(bgpasir.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 89vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.listairterjun {
+    background-image: url(airterjunbg.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 89vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.listcafe {
+    background-image: url(cafe1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 89vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+/* H A L A M A N 3 */
+
+.detail {
+    margin: 60px;
+    text-align: center;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.adetail {
+    background-color: #d1eec2;
+    padding: 13px 250px;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.668);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: #2d4e55;
+    font-size: 20px;
+}
+
+.detail:hover {
+    transform: scale(1.09);
+}
+
+.divdetail {
+    text-align: center;
+    margin: 20px;
+}
+
+.hdetail {
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4c616b;
+    text-shadow: 1px 1px 5px rgba(66, 66, 66, 0.634);
+}
+
+.pdetail {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4c616b75;
+    text-shadow: 1px 1px 5px rgba(66, 66, 66, 0.634);
+}
+
+.bgdetail {
+    background-image: url(bgslide3.jpg) ;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+}
+
+.bgtanjung {
+    background: linear-gradient(to top,  #4792baa0, #63778257);
+    width: 350px;
+    height: 730px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid #35506cc5;
+    margin-top: 50px;
+}
+
+.imgtanjung {
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 25px;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.563);
+}
+
+.h5 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px rgba(66, 66, 66, 0.634);
+}
+
+.pdetail3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px rgba(66, 66, 66, 0.634);
+}
+
+.h5p {
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.tanjungjejer {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+    margin: 15px;
+    overflow-x: auto;
+}
+
+.tanjungjejer img {
+    width: 50px;
+    border-radius: 5px;
+    box-shadow: 1px 5px 10px rgba(12, 57, 100, 0.662);;
+}
+
+.bgdetailair {
+    background-image: url(terjunblur.jpg) ;
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+}
+
+.bgterjun {
+    background: linear-gradient(to top,  #96fea257, rgb(38, 69, 38), rgb(183, 255, 138),#193c2da0);
+    width: 350px;
+    height: 580px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid #35506cc5;
+    margin-top: 50px;
+}
+
+.imgterjun {
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 25px;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.318);
+}
+
+.haldetail {
+    margin: 60px;
+    text-align: center;
+    transition: all;
+    transition-duration: 300ms;
+    
+}
+
+.haldetail1 {
+    margin: 60px;
+    text-align: center;
+    transition: all;
+    transition-duration: 300ms;
+    
+}
+
+.ahaldetail1 {
+    background-color: #d1eec2;
+    padding: 13px 100px;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.668);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: #2d4e55;
+    font-size: 20px;
+    margin: 50px;
+}
+
+.ahaldetail {
+    background-color: #d1eec2;
+    padding: 13px 110px;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.668);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: #2d4e55;
+    font-size: 20px;
+    margin: 50px;
+}
+
+.haldetail:hover {
+    transform: scale(1.09);
+}
+
+.haldetail1:hover {
+    transform: scale(1.09);
+}
+
+.anext2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* H A L A M A N 3 PART 2 */
+.readmore {
+    background-color: rgb(79, 133, 171);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #ffffff;
+    padding: 6px 116px;
+    border-radius: 5px;
+    text-shadow: 0px 1px 5px  #535353;
+    box-shadow: 0px 1px 20px rgba(255, 255, 255, 0.57);
+}
+
+.posisiread:hover {
+    transform: scale(1.03);
+}
+
+.posisiread {
+    margin-top: 20px;
+    transition: all;
+    transition-duration: 300ms ;
+}
+
+
+.h5part2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px rgba(66, 66, 66, 0.634);
+    text-align: center;
+    font-size: 20px;
+}
+
+.bgtanjungp2 {
+    background: linear-gradient(to top,  #4792baa0, #63778257);
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid #35506cc5;
+    margin-top: 50px;
+}
+
+.readmore2 {
+    background-color: rgb(58, 95, 57);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #ffffff;
+    padding: 6px 116px;
+    border-radius: 5px;
+    text-shadow: 0px 1px 5px  #535353;
+    box-shadow: 0px 1px 20px rgba(255, 255, 255, 0.323);
+}
+
+.posisiread2:hover {
+    transform: scale(1.03);
+}
+
+.posisiread2 {
+    margin-top: 20px;
+    transition: all;
+    transition-duration: 300ms ;
+}
+
+.h5airpart2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px rgba(66, 66, 66, 0.634);
+    text-align: center;
+    font-size: 20px;
+}
+
+.bgterjun2 {
+    background: linear-gradient(to top, rgb(38, 69, 38), #96fea257,#193c2da0);
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid #1b3229c5;
+    margin-top: 50px;
+}
+
+.bgdetailairP2 {
+    background-image: url(terjunblur.jpg) ;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+/* H A L A M A N 4 */
+
+.bgli5a {
+    background-color: #ffffff5d;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.83);
+    height: 35px;
+    width: 80px;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 8px;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.bgli5a:hover {
+    background-color: #c2ae9d;
+    transform: scale(1.03);
+}
+
+.bgli5b {
+    background-color: #ffffff5d;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.83);
+    height: 35px;
+    width: 120px;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 8px;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.bgli5b:hover {
+    background-color: #c2ae9d;
+    transform: scale(1.03);
+}
+
+.bgli5c {
+    background-color: #ffffff5d;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.83);
+    height: 35px;
+    width: 130px;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 8px;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.bgli5c:hover {
+    background-color: #c2ae9d;
+    transform: scale(1.03);
+}
+
+
+.divjudulcafe {
+    text-align: center;
+    margin: 30px;
+}
+
+.hcafe {
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #6b624c;
+    text-shadow: 1px 1px 5px rgba(66, 66, 66, 0.634);
+}
+
+.pcafe {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #56391975;
+    text-shadow: 1px 1px 5px rgba(66, 66, 66, 0.634);
+}
+ 
+.detail4 {
+    margin: 60px;
+    text-align: center;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.a4detail {
+    background-color: #907f68;
+    padding: 13px 250px;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.668);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.detail4:hover {
+    transform: scale(1.09);
+}
+
+.divdetailcafe {
+    text-align: center;
+    margin: 20px;
+}
+
+.hdetailcafe {
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #6b594c;
+    text-shadow: 1px 1px 5px rgba(66, 66, 66, 0.634);
+}
+
+.pdetailcafe {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #6b534c75;
+    text-shadow: 1px 1px 5px rgba(66, 66, 66, 0.634);
+}
+
+.bgdetailcafe {
+    background-image: url(/CAFEBLUR.jpg) ;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+}
+
+.bgcafe {
+    background: linear-gradient(to top,  #5f573157, rgb(140, 114, 90),#3f2608a0);
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid #4a2618c5;
+    margin-top: 50px;
+}
+
+.imgcafe {
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 25px;
+    box-shadow: 0 5px 15px rgba(56, 25, 6, 0.662);
+}
+
+/* FOOTER */
+
+footer  {
+    background-color: #1d1d1d;
+}
+
+.ratasamping {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+footer div h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer div p {
+    color: rgba(251, 251, 251, 0.623);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.h1p {
+    margin-right: 180px;
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    gap: 10px;
+}
+
+.atasbawah {
+    margin-right: 250px;
+    margin-top: 10px;
+}
+
+.h3p {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    gap: 90px;
+    line-height: 24px;
+    margin-right: 150px;
+}
+.pbawah {
+    text-align: center;
+    margin: 35px;
+}
+
+.jarak {
+    margin-top: 100px;
+}
+
+footer i {
+    color: #ffffff;
+}
+
+/* DETAIL PANTAI */
+
+.containernavdetail1 {
+    background-image: url(bgblur.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 70vh;
+}
+
+.hdetail1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    font-size: 60px;
+    text-shadow: 5px 5px 20px rgba(5, 5, 5, 0.859);
+}
+
+.detailhal1 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+/* H A L A M A N D E T A I L */
+.imgtanjungdetail {
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 25px;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.563);
+}
+
+.tanjungjejerdetail {
+    display: flex;
+    gap: 12px;
+    margin: 15px;
+    width: 450px;
+    height: 400px;
+    margin-left: 30px;
+}
+
+.tanjungjejerdetail img {
+    border-radius: 5px;
+    box-shadow: 1px 5px 10px rgba(214, 214, 214, 0.36);
+    flex: 1;
+    object-fit: cover;
+    overflow: hidden;
+    transition: all 0.3s;
+
+}
+
+.tanjungjejerdetail img:hover {
+    flex: 4;
+}
+
+.bawahtanjung {
+    display: flex;
+    flex-direction: column;
+}
+.jejerkanan1 {
+    background-image: url(bgblur.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 850px;
+    padding-top: 10px;
+    margin-top: 100px;
+}
+
+.pdetail3P2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px rgba(66, 66, 66, 0.634);
+    margin-top: 50px;
+}
+
+.bgtanjungpart2 {
+    background: linear-gradient(to top,  #4792baa0, #63778257);
+    width: 1200px;
+    height: 730px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid #35506cc5;
+    margin-top: 50px;
+    align-content: center;
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    
+}
+
+.nowa {     
+    color: white;
+}
+
+/* DETAIL AIR TERJUN */
+
+.containernavdetail2 {
+    background-image: url(terjunblur.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 70vh;
+}
+
+.jejerkanan2 {
+    background-image: url(airterjunbg.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 850px;
+    padding-top: 10px;
+    margin-top: 100px;
+}
+
+.bgairpart2 {
+    background: linear-gradient(to top,  rgb(38, 69, 38), #96fea257,#193c2da0);
+    width: 1200px;
+    height: 730px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid #15300cc5;
+    margin-top: 50px;
+    align-content: center;
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    
+}
+
+.pdetailair3P2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px rgba(66, 66, 66, 0.634);
+    margin-top: 100px;
+}
+
+.readmore3 {
+    background-color: rgb(65, 39, 24);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #ffffff;
+    padding: 6px 116px;
+    border-radius: 5px;
+    text-shadow: 0px 1px 5px  #535353;
+    box-shadow: 0px 1px 20px rgba(255, 255, 255, 0.57);
+}
+
+/* cafe cafe cafe  */
+
+.containernavdetail3 {
+    background-image: url(CAFEBLUR.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 70vh;
+}
+
+.bgcafepart2 {
+    background: linear-gradient(to top, #5f573157, rgb(77, 66, 56),#3f2608a0);
+    width: 1200px;
+    height: 730px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid #15300cc5;
+    margin-top: 50px;
+    align-content: center;
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    
+}
+
+.jejerkanan3 {
+    background-image: url(cafe1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 850px;
+    padding-top: 10px;
+    margin-top: 100px;
+}
